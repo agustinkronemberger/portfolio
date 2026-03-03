@@ -158,3 +158,50 @@ body.dark .navbar,
 body.dark .card {
     background: #1e1e1e;
 }
+
+/* --- AJUSTES PARA MÓVILES --- */
+
+@media (max-width: 768px) {
+    /* Ajuste de Navbar */
+    .navbar {
+        padding: 15px 20px;
+        flex-direction: column; /* Apila logo y links en vertical */
+        gap: 10px;
+    }
+
+    .nav-links {
+        gap: 10px;
+        font-size: 0.85rem;
+        flex-wrap: wrap; /* Permite que los links bajen si no caben */
+        justify-content: center;
+    }
+
+    /* Ajuste de Secciones */
+    .section {
+        padding: 80px 5%; /* Menos margen lateral en celular */
+    }
+
+    .hero h1 {
+        font-size: 2rem; /* Texto más pequeño para que no se corte */
+    }
+
+    /* Cards de Proyectos */
+    .cards {
+        flex-direction: column; /* Una carta debajo de la otra */
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* Ajuste para pantallas muy pequeñas (iPhone SE, etc.) */
+@media (max-width: 480px) {
+    .nav-links {
+        display: none; /* Opcional: Podrías ocultar el menú y usar un botón hamburguesa luego */
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+}
