@@ -212,9 +212,9 @@ body.dark .card {
 
 /* Estilo para los títulos de las secciones */
 section h2 {
-    font-size: 3.2rem;      /* Aumenta el tamaño de la letra */
+    font-size: 3rem;      /* Aumenta el tamaño de la letra */
     text-transform: uppercase; /* Todo en mayúsculas para más impacto */
-    margin-bottom: 50px;    /* Espacio generoso debajo del título */
+    margin-bottom: 40px;    /* Espacio generoso debajo del título */
     color: var(--primary);  /* Color principal */
     position: relative;
     display: inline-block;  /* Para que la línea de abajo no ocupe todo el ancho */
