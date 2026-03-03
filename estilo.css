@@ -209,6 +209,28 @@ body.dark .card {
     justify-content: center;
     min-width: 150px;
 }
+
+/* Estilo para los títulos de las secciones */
+section h2 {
+    font-size: 2.5rem;      /* Aumenta el tamaño de la letra */
+    text-transform: uppercase; /* Todo en mayúsculas para más impacto */
+    margin-bottom: 40px;    /* Espacio generoso debajo del título */
+    color: var(--primary);  /* Color principal */
+    position: relative;
+    display: inline-block;  /* Para que la línea de abajo no ocupe todo el ancho */
+}
+
+/* Opcional: Una línea decorativa debajo del título */
+section h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: var(--accent); /* El color violeta/azul que usas */
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
 /* --- AJUSTES PARA MÓVILES --- */
 
 @media (max-width: 768px) {
