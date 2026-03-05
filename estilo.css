@@ -36,6 +36,13 @@ body {
     z-index: 1000;
 }
 
+.logo {
+    color: #e63946;
+    font-weight: 700; /* Le damos grosor para que resalte más */
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
