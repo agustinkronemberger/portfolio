@@ -188,10 +188,26 @@ body.dark .card {
 }
 
 /* Estilos para los botones de contacto */
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: var(--text);
+}
+
+.contact-info i {
+    color: var(--accent);
+    margin-right: 10px;
+}
+
 .contact-buttons {
     display: flex;
-    gap: 15px;
-    margin-bottom: 30px;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap; /* Para que en celular se pongan uno abajo del otro */
 }
 
@@ -199,8 +215,8 @@ body.dark .card {
     background-color: #25d366 !important; /* Verde WhatsApp */
 }
 
-.btn-gmail {
-    background-color: #db4437 !important; /* Rojo Gmail */
+.btn-linkedin {
+    background-color: #0077b5 !important; /* Azul LinkedIn */
 }
 
 .contact-buttons .btn {
@@ -210,6 +226,8 @@ body.dark .card {
     flex: 1; /* Para que midan lo mismo */
     justify-content: center;
     min-width: 150px;
+    max-width: 250px;
+    width: 100%;
 }
 
 /* Estilo para los títulos de las secciones */
