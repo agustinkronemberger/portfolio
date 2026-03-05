@@ -17,6 +17,8 @@ body {
     background: var(--secondary);
     color: var(--text);
     scroll-behavior: smooth;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 /* Navbar mejorada */
@@ -44,7 +46,7 @@ body {
     text-decoration: none;
     color: var(--text);
     font-weight: 500;
-    font-size: 0.9rem; /* Fuente un poco más pequeña */
+    font-size: 1.05rem; /* Fuente un poco más pequeña */
 }
 
 /* Secciones */
